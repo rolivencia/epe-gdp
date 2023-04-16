@@ -92,6 +92,9 @@ Se recomienda instalar los siguientes plugins de Webstorm para una mejor experie
 
 ## Proceso de Desarrollo
 
+<details>
+
+<summary>Nociones sobre el proceso de desarrollo y cómo realizar las contribuciones de código y documentación del proyecto</summary>
 ### Consejos para generación de commits
 
 - Hacer commits pequeños y frecuentes, para facilitar la revisión de los cambios.
@@ -113,7 +116,7 @@ Para una mejor referencia de cuál es el área a la que contribuye un commit, se
 - **[FE]** - Frontend
 - **[TOOL]** - Herramientas de desarrollo
 
-Ejemplos de mensaje de commit:
+#### Ejemplos de mensaje de commits
 
 - `[FE-#47] - Agrega componente de login`
 - `[BE-#93] - Agrega endpoint de login`
@@ -160,5 +163,56 @@ Los mensajes de cada Pull Request deben incluir el ID del issue al que pertenece
 - Ejemplo: `[#73-DM] - Agrega modelo User`
 
 En el caso de que una PR modifique varias áreas del proyecto, se deberá incluir el prefijo de cada área modificada, separada por comas.
+
 - Ejemplo: `[#93-BE,FE] - Agrega nuevo parámetro para request de login.`
 - Ejemplo: `[#93-BE,FE,DM] - Agrega nuevo atributo al modelo Provider y lo utiliza en el request de login y su procesamiento.`
+</details>
+
+## Herramientas de desarrollo
+
+<details>
+<summary>Listado de las herramientas y tecnologías usadas para el desarrollo</summary>
+#### Herramientas de desarrollo
+
+- [NodeJS 18.16.0](https://nodejs.org/es/) - Entorno de ejecución para JavaScript.
+- [WebStorm 2023] - IDE para desarrollo de aplicaciones web.
+- [Git](https://git-scm.com/) - Sistema de control de versiones.
+- [GitHub](https://github.com) - Plataforma de desarrollo colaborativo.
+- [Github Projects](https://github.com) - Plataforma de gestión de proyectos.
+- [Postman](https://www.postman.com/) - Herramienta para realizar pruebas de API.
+- [DBeaver](https://dbeaver.io/) - Herramienta para administración de bases de datos.
+- [Oracle DB](https://www.oracle.com/database/) - Base de datos relacional.
+
+#### Despliegue de versiones de desarrollo
+
+- [Vercel](https://vercel.com/) - Plataforma de hosting de aplicaciones web.
+  - Para aplicaciones de frontend.
+- [Render](https://render.com/) - Plataforma de hosting de aplicaciones web.
+  - Para aplicaciones de backend.
+
+#### Lenguajes de programación
+
+- [HTML](https://developer.mozilla.org/es/docs/Web/HTML) - Lenguaje de marcado para desarrollo web en frontend y backend.
+- [TypeScript](https://www.typescriptlang.org/) - Lenguaje de programación para desarrollo web en frontend y backend.
+  - Versión: 4.9.5
+- [PL/SQL](https://www.oracle.com/database/technologies/appdev/plsql.html) - Lenguaje de programación para desarrollo de procedimientos almacenados en Oracle DB.
+- [SCSS](https://sass-lang.com/) - Lenguaje de programación para desarrollo de estilos en CSS.
+
+#### Tecnologías de Backend
+
+- [NestJS](https://nestjs.com/) - Framework para desarrollo de aplicaciones backend.
+  - Versión: 7.6.15
+- [Express](https://expressjs.com/) - Framework de backend para desarrollo de aplicaciones web. Utilizado mediante la librería [NestJS Express](https://docs.nestjs.com/techniques/express).
+  - Versión: 9.4.0 (@nestjs/platform-express)
+- [Oracle DB](https://www.oracle.com/database/) - Base de datos Oracle.
+
+#### Tecnologías de Frontend
+
+- [Angular](https://angular.io/) - Framework para desarrollo de aplicaciones frontend web.
+  - Versión: 15.2.7
+- [NgRx](https://ngrx.io/) - Librería para manejo de estado en aplicaciones frontend web.
+- [RxJS](https://rxjs.dev/) - Librería para manejo de eventos asíncronos en aplicaciones frontend web.
+  - Versión: 7.8.0
+- [SASS](https://sass-lang.com/) - Preprocesador de CSS.
+
+</details>
