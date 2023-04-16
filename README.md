@@ -20,6 +20,9 @@ Se recomienda instalar los siguientes plugins de Webstorm para una mejor experie
 
 ## Aplicaciones
 
+<details>
+  <summary>Referencia sobre ejecución de aplicaciones, librerías y scripts del proyecto</summary>
+
 ### Aplicaciones desplegables
 
 - `/api` - Aplicación backend web en NestJS
@@ -52,19 +55,22 @@ Se recomienda instalar los siguientes plugins de Webstorm para una mejor experie
 - `nx run intranet:serve:development` - Ejecuta la aplicación frontend web en modo desarrollo (Intranet).
 - `nx run dmz:serve:development` - Ejecuta la aplicación frontend web en modo desarrollo (DMZ).
 
-### Build
+### Compilaciones
 
 #### Compilaciones de Desarrollo
+
 - `nx run api:build` - Compila la aplicación backend web.
 - `nx run intranet:build` - Compila la aplicación frontend web de Intranet.
 - `nx run dmz:build` - Compila la aplicación frontend web de la DMZ.
 
 #### Compilaciones de Producción
+
 - `nx run api:build:production` - Compila la aplicación backend web en modo producción.
 - `nx run intranet:build:production` - Compila la aplicación frontend web de Intranet en modo producción.
 - `nx run dmz:build:production` - Compila la aplicación frontend web de la DMZ en modo producción.
 
 ### Testing Unitario
+
 - `nx run api:test` - Ejecuta las pruebas unitarias para la aplicación backend web.
 - `nx run intranet:test` - Ejecuta las pruebas unitarias para la aplicación frontend web de Intranet.
 - `nx run dmz:test` - Ejecuta las pruebas unitarias para la aplicación frontend web de la DMZ.
@@ -76,7 +82,10 @@ Se recomienda instalar los siguientes plugins de Webstorm para una mejor experie
 - `nx run dmz-e2e:e2e` - Ejecuta las pruebas E2E para la aplicación frontend web de la DMZ.
 
 ### Linting
+
 - `nx run api:lint` - Ejecuta el linter para la aplicación backend web.
 - `nx run intranet:lint` - Ejecuta el linter para la aplicación frontend web de Intranet.
 - `nx run dmz:lint` - Ejecuta el linter para la aplicación frontend web de la DMZ.
 - `nx run domain:lint` - Ejecuta el linter para la librería de modelos de dominio.
+
+</details>
